@@ -35,7 +35,7 @@
   word-break: normal;
 	box-sizing: content-box;
   /* animation-duration: 1s; */
-  animation-name: "animate-reply";
+  animation-name: animate-reply;
   animation-play-state: paused;
   animation-fill-mode: forwards;
   /* opacity: 0; */
@@ -43,6 +43,8 @@
   animation-delay: -3s;
   -ms-animation-delay: -3;
   -webkit-animation-delay: -3s;
+/* by me */    
+  background: -moz-linear-gradient(top,  #444444,  #004d66);
 }
 @keyframes animate-reply {
   from {
@@ -70,6 +72,8 @@
 .bubble.reply.bubble-picked .bubble-content .bubble-button {
   transform: scale(0) translate3d(0px, 0px, 0px);
   padding: 0;
+      /* by me */    
+  background: -moz-linear-gradient(top,  #444444,  #8c0000);
 }
 .bubble.reply:not(.bubble-picked) .bubble-content .bubble-button:hover,
 .bubble.reply .bubble-content .bubble-button.bubble-pick {
@@ -77,6 +81,8 @@
   transform: scale(1) translate3d(0px, 0px, 0px);
   padding: 8px 16px;
   height: auto;
+      /* by me */    
+  background: -moz-linear-gradient(top,  #444444,  #8c0000);
 }
 
 /* interaction recall styles */
